@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>AMOGUS Trivia Quiz</title>
+		<link rel = "stylesheet" href = "triviaGame.css">
+		
+	</head>
+	<body>
+		<form id = "QnA" action = "#" onsubmit = "questions()">
+		<h2 id = "question"><stong>Which impostor is sus?</stong></h2>
+		<br>
+			<input type = "radio" id = "q1" name = "group">
+			<label id = "ql1" for = "q1">Red</label>
+			<br>
+			<input type = "radio" id = "q2" name = "group">
+			<label id = "ql2" for = "q2">Blue</label>
+			<br>
+			<input type = "radio" id = "q3" name = "group">
+			<label id = "ql3" for = "q3">Yellow</label>
+			<br>
+			<input type ="radio" id = "q4" name = "group" required = "true">
+			<label id = "ql4" for = "q4">Green</label>
+			<br>
+			<input type = "submit" id = "subBut" value = "Submit">
+		</form>
+		<p id = "results"></p>
+
+		<div id = "lifelines">
+			<button id = "obama" onclick = "call('obama')">Call Obama?</button>
+			<button id = "eject" onclick = "call('eject')">Eject Impostors</button>
+			<button id = "romney" onclick = "call('romney')">Call Mitt Romney?</button>
+		</div>
+
+		<script src = "triviaGame.js"></script>
+	</body>
+</html>

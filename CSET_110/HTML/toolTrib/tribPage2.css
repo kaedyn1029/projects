@@ -1,0 +1,43 @@
+html, body{
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	
+}
+
+h1, h2, p{
+	color: white;
+}
+
+p{
+	width: auto;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+.header{
+    	display: table;
+    	position: relative;
+    	width: 100%;
+	height: 100%;
+}
+
+.center{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.title{
+	font-size: 5em;
+}
+
+.down, .toAbout{
+	width: 50px;
+	height: auto;
+}
+
+.members{
+	width: 1000px;
+	height: 600px;
+}

@@ -1,0 +1,58 @@
+html{
+    background-color:gray;
+}
+
+body{
+    margin-top: 1in;
+    margin-left: 3.5in;
+    margin-right: 3.5in;
+    background-color:white;
+    background-size: 1in;
+    padding: 1in;
+}
+br.imgBreak{
+    margin: 30px;
+}
+h1{
+    padding: 2px;
+    margin: 0px;
+}
+hr{
+    margin: 1px;
+}
+.right{
+    text-align:right;
+}
+h3,p,h5{
+    margin:1px;
+    padding:1px;
+}
+.education{
+    border: 1px solid black;
+    height: 20px; 
+   
+}
+img{
+    margin-top:0px;
+    margin-bottom:20px;
+}
+table.education{
+    width: 95%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table.computerSkills{
+    width: 35%;   
+}
+
+table.personalInfo{
+    margin-right: auto;
+    margin-left: auto;
+    width: 25%;
+}
+p.endBreak{
+    margin-top: 60px;
+    text-align: center;
+    font-size: 18px;
+}

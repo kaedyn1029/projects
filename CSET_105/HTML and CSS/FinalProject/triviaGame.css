@@ -1,0 +1,39 @@
+html{
+	background-color: #bdbdbd;
+}
+
+body{
+	width: auto;
+	height: 20%;
+	margin-left: 25%;
+	margin-right: 25%;
+	background-color: white;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+
+}
+
+h2{
+	text-align: center;
+}
+
+#lifelines{
+	margin-top: 5%;
+	text-align: center;
+}
+
+#results{
+	text-align: center;
+}
+
+#resetButton{
+	margin-top: 2%;
+}
+
+#subBut{
+	margin-top: 2%;
+}
+
+

@@ -1,0 +1,40 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: white;
+}
+
+body{
+	margin: 10px;
+	background-color: #ffc4fb;
+	width: 525px;
+	height: 255px;
+	border: 5px solid purple;
+}
+
+#cardHead{
+	padding: 1em;
+	display: flex;
+}
+
+img{
+	width: 75px;
+	height: 75px;
+	border-radius: 100%;
+}
+
+#header{
+	margin-left: 25px;
+}
+
+#cardBody{
+	width: 525px;
+	height: auto;
+}
+
+#purpGuy{
+	width: 400px;
+	margin: auto;
+}
+

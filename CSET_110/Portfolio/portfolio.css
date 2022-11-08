@@ -1,0 +1,164 @@
+@font-face{
+	font-family: FuturaCondensed;
+	src: url(Futura/Futura\ Condensed\ Regular.ttf);
+}
+
+html, body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: FuturaCondensed;
+	font-stretch: condensed;
+	height: 100vh;
+	cursor: url(resources/Skyrim-normal.cur), auto;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
+
+html{
+	font-size: 32px;
+	color: #fff; 
+}
+
+#background-video {
+	width: 100vw;
+	height: 100vh;
+	object-fit: cover;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: -1;
+}
+
+
+.weeks{
+	padding-top: 65vh;	
+	float: right;
+	padding-right: 100px;
+	display: grid;
+	grid-template:
+	"week1 selectIcon"
+	"week2 empty1"
+	"week3 empty2"
+	"week4 empty3";
+}
+
+.weeks button{
+	display: block;
+	background: transparent;
+	border: none;
+	font-size: 30px;
+	font-family: FuturaCondensed;
+	color: rgba(255,255,255,0.65);
+	text-align: right;
+}
+
+.weeks button:hover, #projectsList a:hover{
+	color: white !important;
+	cursor: url(resources/Skyrim-precision.cur), auto;	
+}
+
+#projectsList{
+	list-style: none;
+}
+
+#projectsList a{
+	text-decoration: none;
+	text-align: left;
+	display: block;
+	border: none;
+	font-size: 22px;
+	font-family: FuturaCondensed;
+	color: rgba(255,255,255,0.65);
+}
+
+
+
+.subMenus{
+	display: none; 
+	transition: display 8s;
+	-moz-transition: display 2s;
+	max-width: 450px;
+	margin-left: 50%;
+	height: 86vh;
+	padding: 7vh 1.5vh;
+	border-left: 5px solid rgba(255,255,255,0.3);
+	border-right: 5px solid rgba(255,255,255,0.3);
+	background-color: rgba(0,0,0,0.7);
+}
+
+#subMenu2{
+	text-align: center;
+}
+
+#subMenu2 h4, #subMenu2 h3{
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.screens{
+	display: none;
+	margin: auto;
+	height: 100vh;
+}
+
+#back{
+	position: absolute;
+	pointer-events: none;
+	top: 0;
+	left: 0;
+	justify-content: center;
+	vertical-align: middle;
+	display: grid;
+	width: 100vw;
+	height: 100vh;
+	grid-template:
+	"a"
+	"b"
+	"c";
+	grid-template-rows: 1fr 1fr 1fr;
+}
+
+#download{
+	background-image: url(resources/popup.png);
+	background-size: 30vw 65vh;
+	height: 65vh;
+	width: 30vw;
+	pointer-events: none;
+}
+
+#preview{
+	margin: auto;
+	pointer-events: all;
+	width: 60%;
+	text-align: center;
+}
+
+.menuToggle{
+	display: block !important;
+}
+
+.weeks img{
+	height: 38px;
+	text-align: right;
+	padding-left: 10px;
+}
+
+#clear1, #clear2, #clear3{
+	height: 38px;
+}
+
+#projectsList{
+	width: 20%;
+}
+
+#projectsList li, a{
+	float: left;
+	white-space: nowrap;
+	display: block;
+	width: auto;
+}
+

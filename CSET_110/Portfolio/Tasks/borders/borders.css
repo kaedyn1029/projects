@@ -1,0 +1,24 @@
+p{
+	width: 230px;
+}
+#border1{
+	padding: 5px;
+	border: 1px solid black;
+}
+
+#border2{
+	padding: 5px;
+	border-bottom: 1px solid red;
+}
+
+#border3{
+	padding: 5px;
+	border: 1px solid gray;
+	border-radius: 10px;
+}
+
+#border4{
+	padding: 5px;
+	border-left: 3px solid rgba(24,139,244);
+	background-color: rgba(24,139,244,0.2);
+}

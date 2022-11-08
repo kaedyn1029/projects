@@ -1,0 +1,23 @@
+<!--Made with Cameron Angelilli--!>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grocery List Manager</title>
+        <link rel="stylesheet" href="groceries.css">
+    </head>
+    <body>
+        <header><h1>Grocery List Manager</h1></header>
+    <div id="commands">
+    <input id="userInput" class="textField">
+    <button onclick="input()">Add!</button>
+        <div>
+            <input type="checkbox" id="itemsLeft" onclick="displayItemsLeft()"> 
+            <label for="itemsLeft">Click here to view items left to purchase.</label>
+            <input type="checkbox" id="allItems" onclick="viewAllPurchases()">
+            <label for="allItems">Click here to view all purchased items.</label>
+        </div>
+    </div>
+    <div id="div"></div>
+        <script src="groceries.js"></script>
+    </body>
+</html>

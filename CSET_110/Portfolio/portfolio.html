@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Kaedyn's Portfolio</title>
+		<link rel = "stylesheet" href = "portfolio.css">
+	</head>
+
+	<video id="background-video" autoplay loop muted poster="resources/portfolioBack.png">
+		<source src= "resources/k.webm" type="video/webm">
+	</video>
+
+	<body>
+		<section class = "weeks">
+			<button onclick = "popUp(this)" class = "btns" id = "w1" style = "grid-area: week1;">ABOUT</button>
+			<button onclick = "popUp(this)" class = "btns" id = "w2" style = "grid-area: week2;">PROJECTS</button>
+			<button onclick = "popUp(this)" class = "btns" id = "w3" style = "grid-area: week3;">CONTACT</button>
+			<button onclick = "popUp(this)" class = "btns" id = "w4" style = "grid-area: week4;">SKILLS</button>
+			<img style = "grid-area: selectIcon" src = "resources/selectIcon.png">
+
+			<div id = "clear1" style = "grid-area: empty1"></div>
+			<div id = "clear2" style = "grid-area: empty2"></div>
+			<div id = "clear3" style = "grid-area: empty3"></div>
+		</section>
+
+		<section class = "subMenus" id = "subMenu">
+			<p>My name is Kaedyn Kessler, and this is a small introductory portfolio where I will be hosting the projects I am working on, as well as the projects I have completed.</p>
+			<p>My goals are to graduate from Thaddeus and proceed into the field of software engineering, and to take advantage of the job placement the college offers.</p>
+		</section>
+
+		<section class = "subMenus" id = "subMenu2">
+			<h3 id = "name">Projects</h3>
+			<div id = "projects">
+				<ul id = "projectsList">
+					<li><a href = "CakeWiki/wikiPage.html">Cake - Wikipedia Replica</a></li>
+					<li><a href = "Tasks/borders/borders.html">Border Practice</a></li>
+					<li><a href = "Tasks/googleSearch/googleSearch.html">Google Search Replica</a></li>
+					<li><a href = "Tasks/ToolTribPage/tribPage2.html">Tool Tribute Page</a></li>
+					<li><a href = "fnaf/fnaf.html">Freddy Fazbear's Pizzeria</a></li>
+					<li><a href = "idCard/idCard.html">ID Card</a></li>
+					<li><a href = "WeezerPage/landingPage.html">Weezer on CD!</a></li>
+					<li><a href = "Tasks/task1/task1.html">Task 1?</a></li>
+					<li><a href = "Tasks/task2/task2.html">Task 2?</a></li>
+				</ul>
+			</div>
+		</section>
+
+		<section class = "screens" id = "screen1">
+			
+			<div id = "back">
+				<div></div>
+				<div id = "download">
+					<div id = "preview">
+						<h2>CONTACT ME</h2>
+						<hr>
+
+						<h4>Email: kaedynkessler@gmail.com</h4>
+					</div>
+
+				</div>
+				<div></div>
+			</div>
+		</section>
+
+		<section class = "subMenus" id = "subMenu3">
+			<ul>
+				<li>3 Years of Experience with Java</li>
+				<li>Experience with HTML, CSS, and JavaScript</li>
+				<li>Spent my Senior Year of High School at the CTC for Computer Systems Technology</li>
+				<li>Have been working two years at Mercedes-Benz of Lancaster as a Car Wash Attendee</li>
+			</ul>
+		</section>
+
+		<script src = "portfolio.js"></script>
+	</body>
+</html>

@@ -1,0 +1,115 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	margin-top: 1em;
+	height: 100%;
+	background: url(fnafImgs/background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+@font-face{
+	font-family: Comic Mono;
+	font-weight: normal;
+	src: url(./fnafFonts/ComicMono.ttf);
+	
+}
+
+@font-face{
+	font-family: Hacked;
+	font-weight: normal;
+	src: url(./fnafFonts/Hacked-KerX.ttf);
+}
+
+@font-face{
+	font-family: Glitch Slap;
+	font-weight: normal;
+	src: url(./fnafFonts/GlitchSlap-R8me.ttf);
+}
+
+p, td{
+	font-family: Glitch Slap;
+	color: white;
+}
+
+h2{
+	font-family: Hacked;
+	color: white;
+}
+
+#header p{
+	font-size: 24px;
+	font-family: "Hacked";
+}
+
+#header{
+	background-color: black;
+	border: 5px solid white;
+	border-radius: 25px;
+	padding: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	color: white;
+	width: 50%;
+	margin: auto;
+	display: flex;
+}
+
+.navs{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logo{
+	margin-top: 250px;
+	margin-bottom: 250px;
+	text-align: center;
+}
+
+#logoImg{
+	width: 700px;
+}
+
+#hours{
+
+	background-color: black;
+	padding-top: 5em;
+	padding-bottom: 5em;
+	border: 5px dotted white;
+	border-radius: 48px;
+	width: 50%;
+	margin: auto;
+}
+
+#hours h2{
+	text-align: center;
+	width: 50%;
+	margin: auto;
+	font-size: 64px;
+	margin-bottom: 50px;
+}
+
+#hourTable{
+	display: flex;
+	justify-content: center;
+}
+
+#hourTable td{
+	width: 300px;
+	font-size: 24px;
+}
+
+.tdRight{
+	text-align: right;
+}
+
+
+
+
+

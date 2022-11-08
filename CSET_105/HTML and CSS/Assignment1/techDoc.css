@@ -1,0 +1,42 @@
+html{
+    background-color:gray;
+}
+
+body{
+    margin-top: 0.5in;
+    margin-left: 1.5in;
+    margin-right: 1.5in;
+    background-color:white;
+    background-size: 1in;
+    padding: 1in;
+    font-family: Arial, Helvetica, sans-serif;
+    display:flex;
+}
+.left{
+    text-align: left;
+    color: #00BFFF;
+    margin: 0px;
+    padding: 1px;
+    width: 155px;
+}
+.title{
+    color: #696969;
+    margin-bottom: 10px;
+}
+h2.section{
+    background-color: black;
+    color:white;
+    margin-left: 1in;
+    width: 100%;
+}
+li.list{
+    margin-left: 1in;
+}
+p.text{
+    margin-left: 1in;
+}
+span.code{
+    background-color: #feeaf3;
+    color: #fd489a;
+    font-family: 'Courier New', Courier, monospace;
+}

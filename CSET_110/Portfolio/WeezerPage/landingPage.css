@@ -1,0 +1,113 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body{
+	background-color: #FCFCFC;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+	font-size: 50px;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+#basedH2{
+	font-size: 35px;
+}
+
+#titleSub{
+	font-size: 20px;
+}
+
+.center{
+
+	padding: 8em;
+	text-align: center;
+}
+
+#title{
+	background: url(weezer.png);
+	background-size:cover;                   
+    	background-repeat:no-repeat;
+    	background-position: center center;
+	color: white;
+}
+
+#based{
+	padding: 3em;
+}
+
+#reviews{
+	display: flex;
+	padding: 3em;
+	padding-left: 10em;
+	padding-right: 10em;
+	font-size: 18px;
+}
+
+.spans1{
+	background-color: #FCFCFC;
+	color: black;
+	width: 48%;
+}
+
+#left{
+	margin-right: 3em;
+}
+
+#right{
+	margin-left: 3em;
+}
+
+#weezerCDImg{
+	background-color: #434343;
+	color: white;
+}
+
+#listenBuy{
+	display: flex;
+	padding: 0em;
+}
+#left2{
+	color: white;
+	background-color: #249dfe;
+	padding: 7em;
+	width: 50%;
+}
+
+#right2{
+	color: white;
+	background-color: #434343;
+	padding: 7em;
+	width: 50%;
+}
+
+#footer{
+	background-color: black;
+	display: flex;
+	padding: 0;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	margin: 0;
+}
+
+#left3{
+	padding-right: 40em;
+	background-color: black;
+	color: white;
+}
+#right3{
+	background-color: black;
+	color: white;
+	text-align: right;
+}
+
+
+
